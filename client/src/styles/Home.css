@@ -1,0 +1,14 @@
+/* ---------------------------------- Gallery section -------------------------------------------- */
+.gallery__section{
+    margin-top: 4rem !important;
+}
+.gallery__section .section__title{
+    margin-bottom: 2rem;
+}
+.masonry__img{              /* from masonaryImagesGallery.jsx */
+    transition: .3s;
+}
+.masonry__img:hover{
+    transform: scale(1.1);
+}
+/* --------------------x------------- Gallery section --------------x----------------------------- */

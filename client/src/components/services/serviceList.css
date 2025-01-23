@@ -1,0 +1,19 @@
+.services__section{
+    display: flex;
+}
+.services__heading{
+    flex: 0 0 25%;
+    margin-right: 3rem;
+    position: relative;
+    width: 100%;
+}
+.services__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:992px){
+    .services__section{
+        display: block;
+    }
+}

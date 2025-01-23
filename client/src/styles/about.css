@@ -1,0 +1,16 @@
+@media only screen and (max-width:992px){
+    .about_info{
+        margin-top: 3rem !important;
+    } 
+}
+
+@media only screen and (max-width:576px){
+    .about_info{
+        margin-top: 2rem !important;
+    } 
+    .about_info p{
+        margin-bottom: 0rem;
+    }
+}
+
+

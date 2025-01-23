@@ -1,0 +1,17 @@
+.testimonial{
+    padding: 1.5rem 1rem;
+}
+.testimonial__user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.testimonial__user img{
+    width: 25%;
+    height: 25%;
+}
+.testimonial__user h6{
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}

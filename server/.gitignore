@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Debug files
+*.log
+
+# Specific to some frameworks/tools
+npm-debug.log*
+yarn-debug.log*
+.DS_Store

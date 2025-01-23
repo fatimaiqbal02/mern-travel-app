@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+
+# Debug files
+*.log
+
+# Specific to create-react-app or similar
+.cache/

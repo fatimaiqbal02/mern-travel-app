@@ -1,0 +1,101 @@
+.hero__section{
+    background-image: url('../../assets/images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 87vh;
+    display: flex;
+    margin-top: 0 !important;
+    padding-top: 3rem;
+}
+.hero__content{
+    position: relative;
+    width: 100%;
+    padding-right: 4rem;
+    padding-top: 3.5rem;
+}
+.hero__subtitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hero__subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+.hero__content h1{
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--heading-color);
+}
+.hero__content h1 .highlight{
+    color: var(--secondary-color);
+}
+.hero__content p{
+    font-size: 1.1rem;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    line-height: 2rem;
+}
+.image__layout{
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 15.6667%;
+}
+.hero__img-box{
+    text-align: center;
+}
+.hero__img-box img, .hero__img-box video{
+    border: 3px solid white;
+    width: 100%;
+    height: 300px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:999px){
+    .hero__section{
+        background-image: none;
+        height: max-content;
+        display: block;
+    }
+    .hero__content{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0rem;
+    }
+    .hero__content h1{
+        font-size: 2.7rem;
+    }
+    .image__layout{
+        margin-top: 2rem;
+        position: unset;
+        padding: 0rem 0rem;
+    }
+    .hero__img-box img{
+        display: none;
+    }
+    .hero__img-box video{
+        width: 100%;
+        height: 480px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .hero__content{
+        padding-top: 1rem;
+    }
+    .hero__subtitle {
+        font-size: 1rem;
+    }
+    .hero__content h1{
+        font-size: 2rem;
+    }
+    
+}

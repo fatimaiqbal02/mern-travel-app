@@ -1,0 +1,81 @@
+.searchbar__section{
+    border-radius: 0.7rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: max-content;
+    border: 1px solid var(--main-color); 
+    margin: 0rem 4rem;
+    margin-top: 3rem;
+    padding: 1rem 1rem !important;
+}
+.search__form{
+    display: flex;
+    align-items: center;
+    gap:1.5rem
+}
+.form__group{
+    display: flex;
+    gap:2rem;
+}
+.form__group span{
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+.form__group input{
+    border: none;
+    font-size: 0.9rem;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+.form__group input:focus{
+    outline: none;
+}
+.form__group h6{
+    margin-bottom: 0;
+}
+.form__group-fast{
+    border-right: 2px solid #ddd;
+}
+.search__icon i{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;             /* a good approach */
+    cursor: pointer;
+}
+
+@media only screen and (max-width:992px){
+    .searchbar__section{
+        margin-top: 0rem;
+        width: 77%;
+        border-radius: 2rem;
+    }
+    .searchbar__section form{
+        flex-wrap: wrap;
+    }
+
+    .searchbar__section form .form__group{
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .searchbar__section{ 
+        margin: 0rem 1.3rem;
+        padding: 1rem 1rem !important;
+        width: 91%;
+    }
+    .searchbar__section form .form__group{
+        width: 100%;
+    }
+    .form__group input{
+        font-size: 0.7rem;
+    }
+    .form__group span i{
+        font-size: 1.1rem;
+    }
+    .form__group h6{
+        font-size: 1rem;
+    }
+
+}
